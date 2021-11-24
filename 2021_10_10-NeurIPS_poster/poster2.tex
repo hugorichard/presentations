@@ -85,27 +85,30 @@
 
 \setbeamertemplate{headline}{
   \leavevmode
+  \vspace{-1.4em}
   \begin{columns}[T]
-    \begin{column}{.8\linewidth}
+    \begin{column}{.63\linewidth}
       \vskip2cm
       \centering
       \usebeamercolor{title in headline}{\color{jblue}\Huge{\textbf{\inserttitle}}\\[0.5ex]}
       \usebeamercolor{author in headline}{\color{fg}\Large{\insertauthor}\\[1ex]}
       \usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}
-      \includegraphics[scale=0.05]{github} {\color{jblue} \large{\url{https://github.com/hugorichard/ShICA}}}
+      \includegraphics[scale=0.08]{github} {\color{jblue} \Large{\url{https://github.com/hugorichard/ShICA}}}
     \end{column}
-    \begin{column}{.2\linewidth}
+    \begin{column}{.33\linewidth}
+      \centering
       \vskip1cm
-      \includegraphics[height=12em]{neurips}
-      \includegraphics[height=7em]{inria}
-      \includegraphics[height=7em]{psl}
-      \includegraphics[height=7em]{ups}
-      \includegraphics[height=7em]{uoh}
-      \includegraphics[height=7em]{cea}
+      \includegraphics[height=10em]{neurips}
+      \includegraphics[height=10em]{inria}
+      \includegraphics[height=12em]{uoh2}\\
+      \vskip1cm
+      \includegraphics[height=9em]{psl}
+      \includegraphics[height=12em]{ups}
+      \includegraphics[height=9em]{cea}
       \hskip1cm
     \end{column}        
   \end{columns}
-  % \vspace{0.5in}
+  \vspace{0.2in}
   \hspace{0.5in}\begin{beamercolorbox}[wd=47in,colsep=0.15cm]{cboxb}\end{beamercolorbox}
   \vspace{0.1in}
 }
@@ -229,7 +232,7 @@
         estimates
       \item The mapping from matrices to eigenvectors is highly non smooth
     \end{itemize}
-    so \underline{MultisetCCA fails in practice} (especially when the
+    $\Rightarrow$ \underline{MultisetCCA fails in practice} (especially when the
     eigenvalues are close). \\
 
     \vspace{0.5em}
@@ -263,21 +266,25 @@
     \textbf{Last steps}: Find scalings and noise variances (see paper)
   \end{block}
 
-  \vspace{1em}
+  % \vspace{0.5em}
   Related work: SRM~\cite{chen2015reduced}, MVICA~\cite{richard2020modeling},
-  CanICA~\cite{varoquaux2010group}, IVA~\cite{anderson2014independent}.  
+  CanICA~\cite{varoquaux2010group}, IVA~\cite{anderson2014independent}.
+  
+  \vspace{0.5em}
   \begin{block}{Separation performance depending on the density of sources}
-    Data are generated with $m=4$ views, $k=5$ components using the ShICA model. Non-Gaussian sources follow a Laplace density.
-    \vspace{1em}
-    \begin{figure}
-      \includegraphics[width=\textwidth]{./figures/identifiability.pdf}
-      \caption{
-        (a) Gaussian components with noise diversity
-        (b) non-Gaussian components without noise diversity
-        (c) Half of components are Gaussian with noise diversity, the other half is
-        non-Gaussian without diversity
-        }
-    \end{figure}
+    Data generated with the ShICA model ($m=4$ views, $k=5$ components). Non-Gaussian sources have Laplace densities.\\
+    {
+      \vspace{1em}
+      % \begin{figure}
+        \includegraphics[width=\textwidth]{./figures/identifiability.pdf}\\
+        % \caption{
+          (a) Gaussian components with noise diversity
+          (b) non-Gaussian components without noise diversity
+          (c) Half of components are Gaussian with noise diversity, the other half is
+          non-Gaussian without diversity
+          % }
+      % \end{figure}
+    }
   \end{block}
 
 
@@ -288,8 +295,9 @@
 
 
     \begin{block}{Reconstruction experiment fMRI}
+      \vspace{-0.5em}
       \begin{columns}
-        \begin{column}{0.4 \textwidth}
+        \begin{column}{0.35 \textwidth}
           \begin{itemize}
           \item Subjects exposed to the same stimuli
           \item 80\% runs used to learn unmixing matrices
@@ -297,7 +305,7 @@
             subjects using the other subjects.
           \end{itemize}
       \end{column}
-      \begin{column}{0.6 \textwidth}
+      \begin{column}{0.65 \textwidth}
           \begin{center}
             \includegraphics[width=\textwidth]{./figures/reconstruction.pdf}
           \end{center}
@@ -305,11 +313,11 @@
       \end{columns}
     \end{block}
 
-    \vspace{-3em}
+    \vspace{-1em}
     \begin{block}{MEG Phantom experiment}
       \begin{columns}
 
-        \begin{column}{0.4 \textwidth}
+        \begin{column}{0.37 \textwidth}
           \begin{itemize}
             \item 8 dipoles in a plastic head at different locations separately
               emit signal $S_{true}$ during $n$ epochs
@@ -317,7 +325,7 @@
           \end{itemize}
     \end{column}
 
-      \begin{column}{0.6 \textwidth}
+      \begin{column}{0.63 \textwidth}
     \begin{center}
       \includegraphics[width=1\textwidth]{./figures/meg_phantom_neurips.pdf}
     \end{center}
@@ -334,21 +342,20 @@
 %	REFERENCES
 %----------------------------------------------------------------------------------------
 
-\vspace{-2em}
+\vspace{-1em}
 \begin{block}{References}
   \nocite{*} % Insert publications even if they are not cited in the poster
     \printbibliography
 \end{block}
 
-
+\vspace{-1em}
   \small{
-    \textbf{Acknowledgment} This work has received funding from the European
-    Union’s Horizon 2020 Framework Programme for Research and Innovation under the Specific
-    Grant Agreement No. 945539 (Human Brain Project SGA3), the KARAIB AI chair (ANR-20-
-    CHIA-0025-01), the Grant SLAB ERC-StG-676943 and the BrAIN AI chair (ANR-20-CHIA-0016).
-    PA acknowledges funding by the French government under management of Agence Nationale
-    de la Recherche as part of the “Investissements d’avenir” program, reference ANR19-P3IA-0001
-    (PRAIRIE 3IA Institute). AH received funding from a CIFAR Fellowship.
+    \textbf{Acknowledgment} This work was supported by the European
+    Union's Horizon 2020 Framework Programme (Grant Agreement No. 945539 Human Brain
+    Project SGA3), the KARAIB AI chair (ANR-20-
+    CHIA-0025-01), the SLAB ERC-StG-676943 and the BrAIN AI chair (ANR-20-CHIA-0016),
+    the ANR "Investissements d'avenir" program (ANR19-P3IA-0001
+    PRAIRIE 3IA Institute) and a CIFAR Fellowship.
   }
 
 %----------------------------------------------------------------------------------------
