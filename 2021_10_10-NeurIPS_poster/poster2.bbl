@@ -1,0 +1,309 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{anderson2014independent}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AM}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FGS}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Geng-Shen},
+         giveni={G\bibinithyphendelim S\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Phlypo},
+         familyi={P\bibinitperiod},
+         given={Ronald},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Adal{\i}},
+         familyi={A\bibinitperiod},
+         given={T{\"u}lay},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AMFGSPRAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{17}
+    \field{pages}{4399\bibrangedash 4410}
+    \field{title}{Independent vector analysis: Identification conditions and
+  performance bounds}
+    \field{volume}{62}
+    \field{journaltitle}{IEEE Transactions on Signal Processing}
+    \field{year}{2014}
+  \endentry
+
+  \entry{chen2015reduced}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=CPHC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Po-Hsuan\bibnamedelima Cameron},
+         giveni={P\bibinithyphendelim H\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Janice},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yeshurun},
+         familyi={Y\bibinitperiod},
+         given={Yaara},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HU}{%
+         family={Hasson},
+         familyi={H\bibinitperiod},
+         given={Uri},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Haxby},
+         familyi={H\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RPJ}{%
+         family={Ramadge},
+         familyi={R\bibinitperiod},
+         given={Peter\bibnamedelima J},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CPHC+1}
+    \strng{fullhash}{CPHCCJYYHUHJRPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Advances in Neural Information Processing Systems}
+    \field{pages}{460\bibrangedash 468}
+    \field{title}{A reduced-dimension fMRI shared response model}
+    \field{year}{2015}
+  \endentry
+
+  \entry{li2009joint}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LYO}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yi-Ou},
+         giveni={Y\bibinithyphendelim O\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Adali},
+         familyi={A\bibinitperiod},
+         given={T{\"u}lay},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CVD}{%
+         family={Calhoun},
+         familyi={C\bibinitperiod},
+         given={Vince\bibnamedelima D},
+         giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LYO+1}
+    \strng{fullhash}{LYOATWWCVD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{10}
+    \field{pages}{3918\bibrangedash 3929}
+    \field{title}{Joint blind source separation by multiset canonical
+  correlation analysis}
+    \field{volume}{57}
+    \field{journaltitle}{IEEE Transactions on Signal Processing}
+    \field{year}{2009}
+  \endentry
+
+  \entry{moulines1997maximum}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=ME}{%
+         family={Moulines},
+         familyi={M\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CJF}{%
+         family={Cardoso},
+         familyi={C\bibinitperiod},
+         given={Jean-Fran{c{c}}ois},
+         giveni={J\bibinithyphendelim F\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gassiat},
+         familyi={G\bibinitperiod},
+         given={Elisabeth},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {{IEEE}}%
+    }
+    \strng{namehash}{MECJFGE1}
+    \strng{fullhash}{MECJFGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{1997 ieee international conference on acoustics, speech,
+  and signal processing}
+    \field{pages}{3617\bibrangedash 3620}
+    \field{title}{Maximum likelihood for blind separation and deconvolution of
+  noisy signals using mixture models}
+    \field{volume}{5}
+    \field{year}{1997}
+  \endentry
+
+  \entry{richard2020modeling}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=RH}{%
+         family={Richard},
+         familyi={R\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Gresele},
+         familyi={G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hyvarinen},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Thirion},
+         familyi={T\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gramfort},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Ablin},
+         familyi={A\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RH+1}
+    \strng{fullhash}{RHGLHATBGAAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Advances in Neural Information Processing Systems 33}
+    \field{title}{Modeling Shared responses in Neuroimaging Studies through
+  MultiView {ICA}}
+    \field{month}{12}
+    \field{year}{2020}
+  \endentry
+
+  \entry{varoquaux2010group}{article}{}
+    \name{author}{6}{}{%
+      {{hash=VG}{%
+         family={Varoquaux},
+         familyi={V\bibinitperiod},
+         given={Ga{\"e}l},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sadaghiani},
+         familyi={S\bibinitperiod},
+         given={Sepideh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Pinel},
+         familyi={P\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kleinschmidt},
+         familyi={K\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PJB}{%
+         family={Poline},
+         familyi={P\bibinitperiod},
+         given={Jean-Baptiste},
+         giveni={J\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Thirion},
+         familyi={T\bibinitperiod},
+         given={Bertrand},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{VG+1}
+    \strng{fullhash}{VGSSPPKAPJBTB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{number}{1}
+    \field{pages}{288\bibrangedash 299}
+    \field{title}{A group model for stable multi-subject ICA on fMRI datasets}
+    \field{volume}{51}
+    \field{journaltitle}{Neuroimage}
+    \field{year}{2010}
+  \endentry
+\enddatalist
+\endinput
