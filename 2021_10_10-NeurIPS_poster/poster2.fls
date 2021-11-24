@@ -1,4 +1,4 @@
-PWD /home/hugo/Research/Presentations/2021_10_10-NeurIPS_poster
+PWD /home/hugo/Research/Presentations/presentations/2021_10_10-NeurIPS_poster
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -568,6 +568,7 @@ INPUT ./figures/meg_phantom_neurips.pdf
 INPUT ./figures/meg_phantom_neurips.pdf
 INPUT ./figures/meg_phantom_neurips.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm

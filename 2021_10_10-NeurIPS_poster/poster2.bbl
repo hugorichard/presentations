@@ -22,25 +22,25 @@
       {{hash=AM}{%
          family={Anderson},
          familyi={A\bibinitperiod},
-         given={Matthew},
+         given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=FGS}{%
+      {{hash=FG}{%
          family={Fu},
          familyi={F\bibinitperiod},
-         given={Geng-Shen},
-         giveni={G\bibinithyphendelim S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
       }}%
       {{hash=PR}{%
          family={Phlypo},
          familyi={P\bibinitperiod},
-         given={Ronald},
+         given={R.},
          giveni={R\bibinitperiod},
       }}%
       {{hash=AT}{%
          family={Adal{\i}},
          familyi={A\bibinitperiod},
-         given={T{\"u}lay},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
     }
@@ -48,7 +48,7 @@
       {IEEE}%
     }
     \strng{namehash}{AM+1}
-    \strng{fullhash}{AMFGSPRAT1}
+    \strng{fullhash}{AMFGPRAT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{A}
@@ -64,46 +64,45 @@
 
   \entry{chen2015reduced}{inproceedings}{}
     \name{author}{6}{}{%
-      {{hash=CPHC}{%
+      {{hash=CPC}{%
          family={Chen},
          familyi={C\bibinitperiod},
-         given={Po-Hsuan\bibnamedelima Cameron},
-         giveni={P\bibinithyphendelim H\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
       {{hash=CJ}{%
          family={Chen},
          familyi={C\bibinitperiod},
-         given={Janice},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
       {{hash=YY}{%
          family={Yeshurun},
          familyi={Y\bibinitperiod},
-         given={Yaara},
+         given={Y.},
          giveni={Y\bibinitperiod},
       }}%
       {{hash=HU}{%
          family={Hasson},
          familyi={H\bibinitperiod},
-         given={Uri},
+         given={U.},
          giveni={U\bibinitperiod},
       }}%
       {{hash=HJ}{%
          family={Haxby},
          familyi={H\bibinitperiod},
-         given={James},
+         given={J.},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=RPJ}{%
+      {{hash=RP}{%
          family={Ramadge},
          familyi={R\bibinitperiod},
-         given={Peter\bibnamedelima J},
-         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CPHC+1}
-    \strng{fullhash}{CPHCCJYYHUHJRPJ1}
+    \strng{namehash}{CPC+1}
+    \strng{fullhash}{CPCCJYYHUHJRP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{C}
@@ -116,36 +115,36 @@
 
   \entry{li2009joint}{article}{}
     \name{author}{4}{}{%
-      {{hash=LYO}{%
+      {{hash=LY}{%
          family={Li},
          familyi={L\bibinitperiod},
-         given={Yi-Ou},
-         giveni={Y\bibinithyphendelim O\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
       }}%
       {{hash=AT}{%
          family={Adali},
          familyi={A\bibinitperiod},
-         given={T{\"u}lay},
+         given={T.},
          giveni={T\bibinitperiod},
       }}%
       {{hash=WW}{%
          family={Wang},
          familyi={W\bibinitperiod},
-         given={Wei},
+         given={W.},
          giveni={W\bibinitperiod},
       }}%
       {{hash=CVD}{%
          family={Calhoun},
          familyi={C\bibinitperiod},
-         given={Vince\bibnamedelima D},
+         given={V.\bibnamedelima D.},
          giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {IEEE}%
     }
-    \strng{namehash}{LYO+1}
-    \strng{fullhash}{LYOATWWCVD1}
+    \strng{namehash}{LY+1}
+    \strng{fullhash}{LYATWWCVD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{L}
@@ -164,27 +163,27 @@
       {{hash=ME}{%
          family={Moulines},
          familyi={M\bibinitperiod},
-         given={Eric},
+         given={E.},
          giveni={E\bibinitperiod},
       }}%
-      {{hash=CJF}{%
+      {{hash=CJ}{%
          family={Cardoso},
          familyi={C\bibinitperiod},
-         given={Jean-Fran{c{c}}ois},
-         giveni={J\bibinithyphendelim F\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=GE}{%
          family={Gassiat},
          familyi={G\bibinitperiod},
-         given={Elisabeth},
+         given={E.},
          giveni={E\bibinitperiod},
       }}%
     }
     \list{organization}{1}{%
       {{IEEE}}%
     }
-    \strng{namehash}{MECJFGE1}
-    \strng{fullhash}{MECJFGE1}
+    \strng{namehash}{MECJGE1}
+    \strng{fullhash}{MECJGE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{M}
@@ -255,37 +254,37 @@
       {{hash=VG}{%
          family={Varoquaux},
          familyi={V\bibinitperiod},
-         given={Ga{\"e}l},
+         given={G.},
          giveni={G\bibinitperiod},
       }}%
       {{hash=SS}{%
          family={Sadaghiani},
          familyi={S\bibinitperiod},
-         given={Sepideh},
+         given={S.},
          giveni={S\bibinitperiod},
       }}%
       {{hash=PP}{%
          family={Pinel},
          familyi={P\bibinitperiod},
-         given={Philippe},
+         given={P.},
          giveni={P\bibinitperiod},
       }}%
       {{hash=KA}{%
          family={Kleinschmidt},
          familyi={K\bibinitperiod},
-         given={Andreas},
+         given={A.},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=PJB}{%
+      {{hash=PJ}{%
          family={Poline},
          familyi={P\bibinitperiod},
-         given={Jean-Baptiste},
-         giveni={J\bibinithyphendelim B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
       }}%
       {{hash=TB}{%
          family={Thirion},
          familyi={T\bibinitperiod},
-         given={Bertrand},
+         given={B.},
          giveni={B\bibinitperiod},
       }}%
     }
@@ -293,7 +292,7 @@
       {Elsevier}%
     }
     \strng{namehash}{VG+1}
-    \strng{fullhash}{VGSSPPKAPJBTB1}
+    \strng{fullhash}{VGSSPPKAPJTB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{V}

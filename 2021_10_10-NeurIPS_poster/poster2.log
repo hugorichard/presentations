@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  19 NOV 2021 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  24 NOV 2021 17:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1246,24 +1246,24 @@ File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
 (./poster2.aux)
 \openout1 = `poster2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-14.
+13.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1325,7 +1325,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box85
-Package hyperref Info: Link coloring OFF on input line 114.
+Package hyperref Info: Link coloring OFF on input line 113.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1339,9 +1339,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count475
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
  (./poster2.out) (./poster2.out)
 \@outlinefile=\write6
 \openout6 = `poster2.out'.
@@ -1389,157 +1389,157 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'poster2.bbl' found.
 
 (./poster2.bbl)
-Package biblatex Info: Reference section=0 on input line 114.
-Package biblatex Info: Reference segment=0 on input line 114.
+Package biblatex Info: Reference section=0 on input line 113.
+Package biblatex Info: Reference segment=0 on input line 113.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 114.
+LaTeX Info: Redefining \selectfont on input line 113.
  (./poster2.nav)
-LaTeX Font Info:    Calculating math sizes for size <53.75> on input line 114.
+LaTeX Font Info:    Calculating math sizes for size <53.75> on input line 113.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-14.
+13.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-14.
+13.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-114.
+113.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-114.
+113.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <53.75> on input line 114.
+(Font)              <53.75> on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <37.62483> on input line 114.
+(Font)              <37.62483> on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <26.875> on input line 114.
+(Font)              <26.875> on input line 113.
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 114.
+ut line 113.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-LaTeX Font Info:    Calculating math sizes for size <44.79> on input line 114.
+LaTeX Font Info:    Calculating math sizes for size <44.79> on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <44.79> on input line 114.
+(Font)              <44.79> on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <31.35284> on input line 114.
+(Font)              <31.35284> on input line 113.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <22.39499> on input line 114.
+(Font)              <22.39499> on input line 113.
 <github.png, id=17, 803.0pt x 667.49374pt>
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 114.
+Package pdftex.def Info: github.png  used on input line 113.
 (pdftex.def)             Requested size: 40.15234pt x 33.37663pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-14.
+13.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 <neurips.png, id=20, 790.955pt x 356.33125pt>
 File: neurips.png Graphic file (type png)
 <use neurips.png>
-Package pdftex.def Info: neurips.png  used on input line 114.
+Package pdftex.def Info: neurips.png  used on input line 113.
 (pdftex.def)             Requested size: 450.87318pt x 203.12311pt.
 <inria.png, id=21, 310.761pt x 109.3686pt>
 File: inria.png Graphic file (type png)
 <use inria.png>
-Package pdftex.def Info: inria.png  used on input line 114.
+Package pdftex.def Info: inria.png  used on input line 113.
 (pdftex.def)             Requested size: 336.6743pt x 118.48848pt.
 <psl.png, id=22, 3340.48pt x 1378.14874pt>
 File: psl.png Graphic file (type png)
 <use psl.png>
-Package pdftex.def Info: psl.png  used on input line 114.
+Package pdftex.def Info: psl.png  used on input line 113.
 (pdftex.def)             Requested size: 287.17374pt x 118.48848pt.
 <ups.png, id=23, 178.6675pt x 80.3pt>
 File: ups.png Graphic file (type png)
 <use ups.png>
-Package pdftex.def Info: ups.png  used on input line 114.
+Package pdftex.def Info: ups.png  used on input line 113.
 (pdftex.def)             Requested size: 263.64404pt x 118.48848pt.
 <uoh.png, id=24, 1885.30435pt x 1885.30435pt>
 File: uoh.png Graphic file (type png)
 <use uoh.png>
-Package pdftex.def Info: uoh.png  used on input line 114.
+Package pdftex.def Info: uoh.png  used on input line 113.
 (pdftex.def)             Requested size: 118.46411pt x 118.48848pt.
 <cea.png, id=25, 944.52875pt x 770.88pt>
 File: cea.png Graphic file (type png)
 <use cea.png>
-Package pdftex.def Info: cea.png  used on input line 114.
+Package pdftex.def Info: cea.png  used on input line 113.
 (pdftex.def)             Requested size: 145.17538pt x 118.48848pt.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 35
-9.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 37
+0.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Calculating math sizes for size <37.33> on input line 359.
+LaTeX Font Info:    Calculating math sizes for size <37.33> on input line 370.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <37.33> on input line 359.
+(Font)              <37.33> on input line 370.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <26.13087> on input line 359.
+(Font)              <26.13087> on input line 370.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <18.665> on input line 359.
+(Font)              <18.665> on input line 370.
 <./figures/identifiability.pdf, id=32, 735.74875pt x 163.61125pt>
 File: ./figures/identifiability.pdf Graphic file (type pdf)
 <use ./figures/identifiability.pdf>
-Package pdftex.def Info: ./figures/identifiability.pdf  used on input line 359.
+Package pdftex.def Info: ./figures/identifiability.pdf  used on input line 370.
 
 (pdftex.def)             Requested size: 901.91054pt x 200.57655pt.
 <./figures/reconstruction.pdf, id=33, 390.45876pt x 305.14pt>
 File: ./figures/reconstruction.pdf Graphic file (type pdf)
 <use ./figures/reconstruction.pdf>
-Package pdftex.def Info: ./figures/reconstruction.pdf  used on input line 359.
+Package pdftex.def Info: ./figures/reconstruction.pdf  used on input line 370.
 (pdftex.def)             Requested size: 728.50171pt x 569.34708pt.
 <./figures/meg_phantom_neurips.pdf, id=34, 558.085pt x 264.99pt>
 File: ./figures/meg_phantom_neurips.pdf Graphic file (type pdf)
 <use ./figures/meg_phantom_neurips.pdf>
 Package pdftex.def Info: ./figures/meg_phantom_neurips.pdf  used on input line 
-359.
+370.
 (pdftex.def)             Requested size: 728.50171pt x 345.91832pt.
 
-Overfull \vbox (16.54813pt too high) detected at line 359
+Overfull \vbox (16.54813pt too high) detected at line 370
  []
 
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 359.
+Package pdftex.def Info: github.png  used on input line 370.
 (pdftex.def)             Requested size: 40.15234pt x 33.37663pt.
 File: neurips.png Graphic file (type png)
 <use neurips.png>
-Package pdftex.def Info: neurips.png  used on input line 359.
+Package pdftex.def Info: neurips.png  used on input line 370.
 (pdftex.def)             Requested size: 450.87318pt x 203.12311pt.
 File: inria.png Graphic file (type png)
 <use inria.png>
-Package pdftex.def Info: inria.png  used on input line 359.
+Package pdftex.def Info: inria.png  used on input line 370.
 (pdftex.def)             Requested size: 336.6743pt x 118.48848pt.
 File: psl.png Graphic file (type png)
 <use psl.png>
-Package pdftex.def Info: psl.png  used on input line 359.
+Package pdftex.def Info: psl.png  used on input line 370.
 (pdftex.def)             Requested size: 287.17374pt x 118.48848pt.
 File: ups.png Graphic file (type png)
 <use ups.png>
-Package pdftex.def Info: ups.png  used on input line 359.
+Package pdftex.def Info: ups.png  used on input line 370.
 (pdftex.def)             Requested size: 263.64404pt x 118.48848pt.
 File: uoh.png Graphic file (type png)
 <use uoh.png>
-Package pdftex.def Info: uoh.png  used on input line 359.
+Package pdftex.def Info: uoh.png  used on input line 370.
 (pdftex.def)             Requested size: 118.46411pt x 118.48848pt.
 File: cea.png Graphic file (type png)
 <use cea.png>
-Package pdftex.def Info: cea.png  used on input line 359.
+Package pdftex.def Info: cea.png  used on input line 370.
 (pdftex.def)             Requested size: 145.17538pt x 118.48848pt.
 
 Overfull \hbox (88.20334pt too wide) has occurred while \output is active
@@ -1567,11 +1567,11 @@ n: multiple pdfs with page group included in a single page
 \tf@snm=\write9
 \openout9 = `poster2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 361.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 361.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
  (./poster2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 361.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 361.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 372.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
 Package rerunfilecheck Info: File `poster2.out' has not changed.
 (rerunfilecheck)             Checksum: 06E27B416B3B1946CD705C501CA5B3BD;45.
 Package logreq Info: Writing requests to 'poster2.run.xml'.
@@ -1579,13 +1579,13 @@ Package logreq Info: Writing requests to 'poster2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31021 strings out of 480994
- 604287 string characters out of 5912128
+ 31022 strings out of 480994
+ 604304 string characters out of 5912128
  1262647 words of memory out of 5000000
- 45851 multiletter control sequences out of 15000+600000
- 662646 words of font info for 144 fonts, out of 8000000 for 9000
+ 45852 multiletter control sequences out of 15000+600000
+ 665414 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,19n,78p,774b,2064s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,19n,78p,868b,2068s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/20
 19/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/
@@ -1600,7 +1600,7 @@ nts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/public/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/l
 m/lmtt12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on poster2.pdf (1 page, 776355 bytes).
+Output written on poster2.pdf (1 page, 778420 bytes).
 PDF statistics:
  165 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
