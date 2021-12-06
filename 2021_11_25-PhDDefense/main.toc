@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Independent component analysis}{16}{0}{1}
+\beamer@sectionintoc {2}{Group independent component analysis}{25}{0}{2}
+\beamer@sectionintoc {3}{MultiViewICA}{40}{0}{3}
+\beamer@sectionintoc {4}{SharedICA}{59}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{72}{0}{5}
