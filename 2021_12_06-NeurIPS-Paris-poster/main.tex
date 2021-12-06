@@ -1,0 +1,178 @@
+% Created 2020-06-24 Wed 17:12
+% Intended LaTeX compiler: pdflatex
+\documentclass[bigger]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{utils/kky}
+\usepackage{multimedia}
+\newcommand{\video}[1]{ \movie[poster, height = 0.8\textheight, width = \textwidth, autostart, loop, poster]{}{#1}}
+\usetheme{Madrid}
+\author[Hugo Richard \emph{et al.}]{Hugo Richard, Pierre Ablin,  Alexandre Gramfort, Bertrand Thirion, Aapo Hyvarinen}
+\date{NeurIPS @ Paris 2021}
+\title[ShICA]{Shared Independent Component Analysis for Multi-Subject Neuroimaging}
+\titlegraphic{
+  Github: @hugorichard $\begin{array}{l}
+                                      \includegraphics[width=1cm]{utils/github.png}
+                                    \end{array}$
+                                     \hspace*{0.1\textwidth}~%
+                                     Twitter: @hugorichard $\begin{array}{l}
+                                                              \includegraphics[width=1cm]{utils/twitter.png}
+                                                            \end{array}$ \\
+                                                            \color{blue}{\url{https://hugorichard.github.io}}
+
+                                                             $\begin{array}{l}
+                                                                \includegraphics[height=1cm]{utils/inria.png} \end{array}$
+                                                              $\begin{array}{l} \includegraphics[height=1cm]{utils/ups.png} \end{array}$
+                                                              \\
+
+                                                          }
+\setbeamertemplate{navigation symbols}{}
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\begin{frame}[label={sec:org3d37d88}]{Independent component analysis (noise-free)}
+\begin{block}<1->{ICA model (Jutten, 1991)}
+\begin{itemize}
+\item Independent \emph{sources}: \(\sbb \in \mathbb{R}^{p}\)
+\end{itemize}
+\(p(\sbb) = p(s_1) \cdots p(s_p)\)
+\begin{itemize}
+\item \emph{\emph{Sensors}}: \(\xb \in \mathbb{R}^{p}\)
+\end{itemize}
+
+\centering
+\emph{\emph{\(\xb = A\sbb\)}}
+
+where \(A\) is the \emph{Mixing matrix}. 
+\end{block}
+
+\begin{block}{GroupICA}
+  Consider $m$ views \(\xb_1, \dots, \xb_m \in \mathbb{R}^p\) such that \\
+  \[
+    \forall i \in \{1, \dots, m\}, \enspace \xb_i = A_i \sbb + \nb_i
+  \]
+\end{block}
+\end{frame}
+
+\begin{frame}{State of the art}
+  \begin{block}{The most popular}
+    \begin{itemize}
+    \item ConcatICA [Calhoun, 2001]
+    \item CanICA [Varoquaux, 2010]
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Some other related work}
+    \begin{itemize}
+    \item IVA [Lee, 2008] 
+    \item Unified approach [Guo, 2008] 
+    \item SRM [Chen, 2015] 
+      \item MultiViewICA [Richard, 2020]
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+
+% \section{Optimization}
+% \label{sec:org6a44715}
+% \begin{frame}[label={sec:orgee78096}]{Optimization}
+% \begin{block}{Fast optimization}
+% \begin{itemize}
+% \item Alternate optimization (alternate between subjects)
+% \item Quasi newton with an approximation of the Hessian
+% \end{itemize}
+% \end{block}
+% \begin{block}{Quasi-Newton}
+% \begin{itemize}
+% \item Updates \(W_i = (I + \rho D)W_i\), \(D = {H_i}^{-1} G_i\) such that
+% \end{itemize}
+% \(\mathcal{L}((I + \varepsilon)W_i)) = \mathcal{L}(W_i) + <\varepsilon | G_i> +
+% <\varepsilon | H_i \varepsilon>, \enspace H_i \in \mathbb{R}^{k \times k \times k \times k}\)
+% \begin{align}
+%   \label{eq:hessian}
+%   \only<1>{(\mathcal{H}_i)_{abcd} &= \delta_{ad}\delta_{bc} + \delta_{ac}\left(\frac{1}{m^2}f''(\tilde{s}_a) + \frac{1 - 1/m}{\sigma^2}\right)y_{ib}y_{id} \\ & \text{where} \enspace \yb_i = W_i \xb_i}
+%                                                                                                                                                                 \only<2>{(H_i)_{abcd} &= \delta_{ad}\delta_{bc} + \delta_{ac}\delta_{bd}\left(\frac{1}{m^2}f''(\tilde{s}_a) + \frac{1 - 1/m}{\sigma^2}\right)\left(y_{ib}\right)^2 \\ & \text{where} \enspace \yb_i = W_i \xb_i}
+% \end{align}
+% \only<1>{$\mathcal{H}_i$ has $O(k^3)$ non zero coefficients.}
+% \only<2>{$H_i$ has $O(k^2)$ non zero coefficients. It is 2x2 block
+%   diagonal: easy to invert and regularize}
+% \end{block}
+% \end{frame}
+
+
+\begin{frame}{Our contribution: Shared ICA (ShICA)}
+  \begin{block}{ShICA model}
+     \begin{center}$ \xb_i = A_i (\sbb + \nb_i), i=1,\dots, m$ \end{center}
+    \begin{itemize}
+      \item $\nb_i \sim \Ncal(0, \Sigma_i)$ where $\Sigma_i$ is diagonal positive.
+      \item $\sbb$ are independent components some of which may be Gaussian
+     \end{itemize}
+  \end{block}
+  \begin{block}{ShICA-J: }
+    \begin{itemize}
+\item A fast algorithm based on joint diagonalization and multiset CCA
+  \end{itemize}
+  \end{block}
+  \begin{block}{ShICA-ML}
+    \begin{itemize}
+  \item A maximum likelihood algorithm for ShICA
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+
+\begin{frame}{Our contribution: Shared ICA (ShICA)}
+  \begin{exampleblock}{ShICA model}
+    Informal theorem (Identifiability): ShICA is identifiable if and only if Gaussian components are ``sufficiently diverse''.
+  \end{exampleblock}
+  \begin{exampleblock}{ShICA-J}
+    \begin{enumerate}
+      \item (Theorem) Apply MultisetCCA framed as an eigenproblem to data
+        following ShICA: the first $p$ eigenvectors yield the unmixing matrices. 
+        \item This fails in practice but joint diagonalization solves the issue.
+    \end{enumerate}
+  \end{exampleblock}
+  \begin{exampleblock}{ShICA-ML}
+    \centerline{$\xb_i = A_i (\sbb + \nb_i)$} where $\nb_i \sim \Ncal(0, \Sigma_i)$, $\Sigma_i$ diagonal and $s_j
+    \sim \frac12 \sum_{\alpha \in \{ \frac12, \frac32 \}} \Ncal(0, \alpha)$.
+    Solved by EM: closed form and efficient E-step.
+  \end{exampleblock}
+\end{frame}
+
+
+\begin{frame}{Experiments}
+  \begin{block}{Experiments on synthetic data}
+    \begin{itemize}
+    \item ShICA-ML can separate both Gaussian and non-Gaussian sources
+    \item ShICA-J provide a good computation time / performance ratio
+   \end{itemize}
+  \end{block}
+  \begin{block}{Experiments on real data}
+    \begin{itemize}
+    \item fMRI data: ShICA-ML better reconstructs the data of left-out subjects
+      from data of other subjects.
+    \item MEG data: ShICA-ML yields an improved localization and identification
+      of common sources.
+    \end{itemize}
+  \end{block}
+
+  Our paper: {\color{blue} \url{https://openreview.net/pdf?id=24-ZY0UZVKD}} \\
+  Our code: {\color{blue} \url{https://github.com/hugorichard/ShICA}}
+  
+\end{frame}
+
+\end{document}
